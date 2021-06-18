@@ -53,21 +53,21 @@ const App = () => {
 
 ## Options
 
-The following options are available on `<ReactDeleteRow>`:
+The following options are available on ReactDeleteRow:
 
-`data` - Payload data to return in event handler callbacks (onDelete, etc).
+- `data` - Payload data to return in event handler callbacks (onDelete, etc).
 
-`className` - CSS class to apply to the table row. *Optional*
+- `className` - CSS class to apply to the table row. *Optional*
 
-`iconClassName` - CSS class to apply to the delete icon. *Optional*
+- `iconClassName` - CSS class to apply to the delete icon. *Optional*
 
-`delay` - Number of milliseconds for the fade effect before removing the row from the DOM. *Default is 300ms*
+- `delay` - Number of milliseconds for the fade effect before removing the row from the DOM. *Default is 300ms*
 
-`deleteElement` - String or JSX elements (HTML) to render for the delete icon. *Default is 'X'*
+- `deleteElement` - String or JSX elements (HTML) to render for the delete icon. *Default is 'X'*
 
-`onDelete` - Callback event handler for when the delete icon is clicked. Return `TRUE` to fade the row and remove from the DOM. Return `FALSE` to prevent removing the row. *Optional*
+- `onDelete` - Callback event handler for when the delete icon is clicked. Return `TRUE` to fade the row and remove from the DOM. Return `FALSE` to prevent removing the row. *Optional*
 
-`onDeleteComplete` - Callback event handler for after the row has been removed from the DOM. *Optional*
+- `onDeleteComplete` - Callback event handler for after the row has been removed from the DOM. *Optional*
 
 ## Notes
 
@@ -84,7 +84,7 @@ The component uses the CSS class `fade` to fade out the table row upon clicking.
 
 To build the npm module, follow the steps below.
 
-1. Clone the [repository](https://github.com/primaryobjects/react-delete-row)
+1. Clone the [repository](https://github.com/primaryobjects/react-delete-row).
 2. Open a terminal and navigate to the root folder.
 3. Run the command `npm install`.
 4. The library can be found in the folder `/lib`.
@@ -95,7 +95,7 @@ To build the npm module, follow the steps below.
 
 To run the example, follow the steps below.
 
-1. Clone the [repository](https://github.com/primaryobjects/react-delete-row)
+1. Clone the [repository](https://github.com/primaryobjects/react-delete-row).
 2. Open a terminal and navigate to the folder `test`.
 3. Run the command `npm install`.
 4. Run the command `npm start`.
