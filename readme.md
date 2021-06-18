@@ -69,6 +69,27 @@ The following options are available on ReactDeleteRow:
 
 - `onDeleteComplete` - Callback event handler for after the row has been removed from the DOM. *Optional*
 
+## Building the Library
+
+To build the npm module, follow the steps below.
+
+1. Clone the [repository](https://github.com/primaryobjects/react-delete-row).
+2. Open a terminal and navigate to the root folder.
+3. Run the command `npm install`.
+
+*You can also manually run the command `npm run prepare` to create a new build.*
+
+*The library can be found in the folder `/lib`.*
+
+## Running the Example
+
+To run the example, follow the steps below.
+
+1. Clone the [repository](https://github.com/primaryobjects/react-delete-row).
+2. Open a terminal and navigate to the folder `test`.
+3. Run the command `npm install`.
+4. Run the command `npm start`.
+
 ## Notes
 
 The component uses the CSS class `fade` to fade out the table row upon clicking. This can be overridden in your CSS to customize the animation effect.
@@ -79,26 +100,6 @@ The component uses the CSS class `fade` to fade out the table row upon clicking.
     transition: opacity 500ms;
 }
 ```
-
-## Building the Library
-
-To build the npm module, follow the steps below.
-
-1. Clone the [repository](https://github.com/primaryobjects/react-delete-row).
-2. Open a terminal and navigate to the root folder.
-3. Run the command `npm install`.
-4. The library can be found in the folder `/lib`.
-
-*You can also manually run the command `npm run prepare` to create a new build.*
-
-## Running the Example
-
-To run the example, follow the steps below.
-
-1. Clone the [repository](https://github.com/primaryobjects/react-delete-row).
-2. Open a terminal and navigate to the folder `test`.
-3. Run the command `npm install`.
-4. Run the command `npm start`.
 
 ## License
 
