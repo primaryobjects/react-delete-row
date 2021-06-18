@@ -87,7 +87,9 @@ To build the npm module, follow the steps below.
 1. Clone the [repository](https://github.com/primaryobjects/react-delete-row)
 2. Open a terminal and navigate to the root folder.
 3. Run the command `npm install`.
-4. Run the command `npm run prepare`.
+4. The library can be found in the folder `/lib`.
+
+*You can also manually run the command `npm run prepare` to create a new build.*
 
 ## Running the Example
 
@@ -97,3 +99,11 @@ To run the example, follow the steps below.
 2. Open a terminal and navigate to the folder `test`.
 3. Run the command `npm install`.
 4. Run the command `npm start`.
+
+## License
+
+MIT
+
+## Author
+
+Kory Becker http://www.primaryobjects.com/kory-becker
