@@ -1,7 +1,7 @@
 {
   "name": "react-delete-row",
   "version": "1.0.0",
-  "description": "A Reactjs TypeScript component for rendering a table row with a delete button and fade effect.",
+  "description": "A Reactjs component for rendering a table row with a delete button and fade effect.",
   "main": "index.js",
   "scripts": {
     "build": "rm -rf ./lib && tsc",
