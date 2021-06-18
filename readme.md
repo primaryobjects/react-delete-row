@@ -17,7 +17,7 @@ npm install react-delete-row
 
 2. Render an array of data in a table, with the first table body `<tr>` defined with `<ReactDeleteRow>`.
 
-```
+```js
 import ReactDeleteRow from 'react-delete-row';
 
 // ...
