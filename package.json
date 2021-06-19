@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "A Reactjs component for rendering a table row with a delete button and fade effect.",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/primaryobjects/react-delete-row.git"
+  },
   "scripts": {
     "build": "rm -rf ./lib && tsc",
     "prepare": "yarn build && yarn copy-files",
@@ -23,7 +27,11 @@
     "delete-table",
     "react-table"
   ],
-  "author": "Kory Becker",
+  "author": {
+    "name": "Kory Becker",
+    "email": "kbecker@primaryobjects.com",
+    "url": "http://www.primaryobjects.com/kory-becker"
+  },
   "license": "MIT",
   "devDependencies": {
     "@types/react": "^17.0.11",
