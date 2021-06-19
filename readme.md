@@ -7,6 +7,8 @@ A ReactJs UI component for rendering a table row with a delete button and fade e
 
 ![ReactJs component for deleting a row in a table with a fade effect.](https://raw.githubusercontent.com/primaryobjects/react-delete-row/master/screenshot.gif)
 
+Try the [demo](https://run.plnkr.co/preview/ckq3zq1ex000z316c4yx2g9yd/)!
+
 ## Usage
 
 1. Install the react-delete-row module from npm.
