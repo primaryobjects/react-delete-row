@@ -69,6 +69,21 @@ The following options are available on ReactDeleteRow:
 
 - `onDeleteComplete` - Callback event handler for after the row has been removed from the DOM. *Optional*
 
+### Example Options
+
+```js
+<ReactDeleteRow
+  key={i}
+  data={item}
+  deleteElement={ <i className="fas fa-trash-alt" /> }
+  iconClassName='text-danger'
+  className='text-success'
+  onDelete={ item => { return window.confirm(`Are you sure you want to delete "${item.title}"?`) }}>
+    <td>{item.title}</td>
+    <td>{item.body}</td>
+</ReactDeleteRow>
+```
+
 ## Building the Library
 
 To build the npm module, follow the steps below.
