@@ -2,7 +2,8 @@
   "compilerOptions": {
     "outDir": "./lib",
     "target": "es6",
-    "module": "commonjs",
+    "module": "esnext",
+    "moduleResolution": "node",
     "noImplicitAny": true,
     "strictNullChecks": true,
     "removeComments": true,
