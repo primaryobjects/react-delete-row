@@ -93,11 +93,10 @@ To build the npm module, follow the steps below.
 1. Clone the [repository](https://github.com/primaryobjects/react-delete-row).
 2. Open a terminal and navigate to the root folder.
 3. Run the command `npm install`.
-4. Run the command `npm pack` to test the tarball for the npm publish.
-
-*The contents from `npm pack` will include the `/dist` and `/src` folders, along with a package.json containing a `main` pointer to the file `/dist/index.js`.*
 
 *You can also manually run the command `npm run prepare` to create a new build.*
+
+*The library can be found in the folder `/dist`.*
 
 ## Running the Example
 
