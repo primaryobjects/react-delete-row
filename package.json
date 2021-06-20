@@ -2,15 +2,22 @@
   "name": "react-delete-row",
   "version": "1.0.0",
   "description": "A Reactjs component for rendering a table row with a delete button and fade effect.",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "files": [
+    "package.json",
+    "readme.md",
+    "tsconfig.json",
+    "src/",
+    "dist/"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/primaryobjects/react-delete-row.git"
   },
   "scripts": {
-    "build": "rm -rf ./lib && tsc",
+    "build": "rm -rf ./dist && tsc",
     "prepare": "yarn build && yarn copy-files",
-    "copy-files": "copyfiles -u 1 ./src/*.css lib",
+    "copy-files": "copyfiles -u 1 ./src/*.css dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [

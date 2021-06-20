@@ -96,7 +96,7 @@ To build the npm module, follow the steps below.
 
 *You can also manually run the command `npm run prepare` to create a new build.*
 
-*The library can be found in the folder `/lib`.*
+*The library can be found in the folder `/dist`.*
 
 ## Running the Example
 
