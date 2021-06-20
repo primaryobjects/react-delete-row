@@ -1,5 +1,5 @@
 import './App.css';
-import ReactDeleteRow from './react-delete-row';
+import ReactDeleteRow from 'react-delete-row';
 
 const App = () => {
   const data = [
