@@ -86,6 +86,25 @@ The following options are available on ReactDeleteRow:
 </ReactDeleteRow>
 ```
 
+### Example with onDeleteComplete
+
+```js
+<ReactDeleteRow
+  ...
+  onDelete={ item => { if (window.confirm(`Are you sure you want to delete the item "${item.title}"?`)) {
+    this.onDelete(item.id);
+    return true;
+  }}}
+  onDeleteComplete={ item =>
+    // Remove item from state after row fades out.
+    this.setState(prevState => ({
+      items: prevState.items.filter(i => i.id !== item.id)
+    }))
+  }>
+  ...
+</ReactDeleteRow>
+```
+
 ## Building the Library
 
 To build the npm module, follow the steps below.
